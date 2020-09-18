@@ -11,7 +11,7 @@ public class GenerateKey_Test {
     public static void main(String[] args) {
         try {
             GenerateKey generateKey = new GenerateKey("JCEKS");
-            generateKey.createKey("TestPassword","DSA","TestAlias");
+            generateKey.createKey("TestPassword","DSA","TestAlias","Test");
         } catch (KeyStoreException | CertificateException | NoSuchAlgorithmException | IOException e) {
             e.printStackTrace();
         }

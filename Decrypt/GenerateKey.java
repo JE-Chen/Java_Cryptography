@@ -27,16 +27,15 @@ public class GenerateKey {
         protectionParameter = new KeyStore.PasswordProtection(password);
     }
 
-    public void createKey(String secretKeypassword,String algorithm,String Alias) throws KeyStoreException, CertificateException, NoSuchAlgorithmException, IOException {
-        SecretKey secretKey = new SecretKeySpec(secretKeypassword.getBytes(),algorithm);
+    public void createKey(String secretPassword,String algorithm,String Alias,String keyStoreName) throws KeyStoreException, CertificateException, NoSuchAlgorithmException, IOException {
+        SecretKey secretKey = new SecretKeySpec(secretPassword.getBytes(),algorithm);
         KeyStore.SecretKeyEntry secretKeyEntry = new KeyStore.SecretKeyEntry(secretKey);
         keyStore.setEntry(Alias,secretKeyEntry,protectionParameter);
-        this.outputKey("Test",password);
+        this.outputKey(keyStoreName,password);
     }
 
     private void outputKey(String keyStoreName,char[] password) throws IOException, CertificateException, NoSuchAlgorithmException, KeyStoreException {
         FileOutputStream fileOutputStream = new FileOutputStream(keyStoreName);
         keyStore.store(fileOutputStream,password);
     }
-
 }
