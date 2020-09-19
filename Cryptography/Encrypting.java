@@ -12,6 +12,7 @@ public class Encrypting {
     private KeyPairGenerator keyPairGenerator;
     private KeyPair keyPair;
     private PrivateKey privateKey;
+    private PublicKey publicKey;
 
     public Encrypting(String algorithm,int keySize) throws NoSuchAlgorithmException {
         this.init(algorithm, keySize);
@@ -21,14 +22,15 @@ public class Encrypting {
         keyPairGenerator = KeyPairGenerator.getInstance(algorithm);
         keyPairGenerator.initialize(keySize);
         keyPair = keyPairGenerator.generateKeyPair();
-        privateKey = this.createPrivateKey();
+        privateKey = this.getPrivateKey();
+        publicKey = this.getPublicKey();
     }
 
-    public PublicKey createPublicKey(){
+    public PublicKey getPublicKey(){
         return keyPair.getPublic();
     }
 
-    private PrivateKey createPrivateKey() {
+    public PrivateKey getPrivateKey() {
         return keyPair.getPrivate();
     }
 

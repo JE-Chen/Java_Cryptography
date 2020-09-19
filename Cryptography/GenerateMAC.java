@@ -2,9 +2,7 @@ package com.je_chen.Cryptography;
 
 import javax.crypto.KeyGenerator;
 import javax.crypto.Mac;
-import java.security.InvalidKeyException;
 import java.security.Key;
-import java.security.NoSuchAlgorithmException;
 import java.security.SecureRandom;
 
 public class GenerateMAC {
@@ -13,7 +11,7 @@ public class GenerateMAC {
     private Key key;
     private Mac mac;
 
-    public GenerateMAC(String keyAlgorithm, String macAlgorithm) throws NoSuchAlgorithmException, InvalidKeyException {
+    public GenerateMAC(String keyAlgorithm, String macAlgorithm) throws java.security.GeneralSecurityException {
         keyGenerator = KeyGenerator.getInstance(keyAlgorithm);
         SecureRandom secureRandom = new SecureRandom();
         keyGenerator.init(secureRandom);

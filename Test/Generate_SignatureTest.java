@@ -15,7 +15,7 @@ public class Generate_SignatureTest {
             byte[] signature = generateSignature.createSignature(message,"SHA256withDSA");
             System.out.println(generateSignature.verifySignature(message,signature));
             System.out.println(new String(signature, StandardCharsets.UTF_8));
-        } catch (NoSuchAlgorithmException | InvalidKeyException | SignatureException e) {
+        } catch (GeneralSecurityException e) {
             e.printStackTrace();
         }
     }

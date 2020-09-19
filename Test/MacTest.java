@@ -2,8 +2,7 @@ package com.je_chen.Test;
 
 import com.je_chen.Cryptography.GenerateMAC;
 
-import java.security.InvalidKeyException;
-import java.security.NoSuchAlgorithmException;
+import java.security.GeneralSecurityException;
 
 public class MacTest {
 
@@ -11,9 +10,7 @@ public class MacTest {
         try {
             GenerateMAC generateMAC = new GenerateMAC("DES","HmacSHA256");
             System.out.println(generateMAC.computingMac("JE-Chen"));
-        } catch (NoSuchAlgorithmException e) {
-            e.printStackTrace();
-        } catch (InvalidKeyException e) {
+        } catch (GeneralSecurityException e) {
             e.printStackTrace();
         }
     }

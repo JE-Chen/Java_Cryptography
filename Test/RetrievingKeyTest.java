@@ -2,12 +2,6 @@ package com.je_chen.Test;
 
 import com.je_chen.Cryptography.RetrievingKey;
 
-import java.io.IOException;
-import java.security.KeyStoreException;
-import java.security.NoSuchAlgorithmException;
-import java.security.UnrecoverableEntryException;
-import java.security.cert.CertificateException;
-
 public class RetrievingKeyTest {
 
     public static void main(String[] args) {
@@ -17,7 +11,7 @@ public class RetrievingKeyTest {
             for(String Detail : retrievingKey.Retrieving("Test")){
                 System.out.println(Detail);
             }
-        } catch (IOException | CertificateException | NoSuchAlgorithmException | KeyStoreException | UnrecoverableEntryException e) {
+        } catch (Exception e) {
             e.printStackTrace();
         }
     }
