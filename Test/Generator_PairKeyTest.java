@@ -1,6 +1,6 @@
 package com.je_chen.Test;
 
-import com.je_chen.Decrypt.Generator_PairKey;
+import com.je_chen.Cryptography.Generator_PairKey;
 
 import java.security.NoSuchAlgorithmException;
 

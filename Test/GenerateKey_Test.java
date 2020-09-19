@@ -1,6 +1,6 @@
 package com.je_chen.Test;
 
-import com.je_chen.Decrypt.GenerateKey;
+import com.je_chen.Cryptography.GenerateKey;
 
 import java.io.IOException;
 import java.security.KeyStoreException;

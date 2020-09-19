@@ -1,6 +1,6 @@
 package com.je_chen.Test;
 
-import com.je_chen.Encryption.RetrievingKey;
+import com.je_chen.Cryptography.RetrievingKey;
 
 import java.io.IOException;
 import java.security.KeyStoreException;

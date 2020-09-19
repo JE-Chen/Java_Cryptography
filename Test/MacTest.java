@@ -1,6 +1,6 @@
 package com.je_chen.Test;
 
-import com.je_chen.Decrypt.GenerateMAC;
+import com.je_chen.Cryptography.GenerateMAC;
 
 import java.security.InvalidKeyException;
 import java.security.NoSuchAlgorithmException;

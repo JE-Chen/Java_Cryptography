@@ -1,6 +1,6 @@
 package com.je_chen.Test;
 
-import com.je_chen.Decrypt.Hash;
+import com.je_chen.Cryptography.Hash;
 
 import java.security.NoSuchAlgorithmException;
 import java.security.Security;
