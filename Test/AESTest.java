@@ -22,9 +22,9 @@ public class AESTest {
             System.out.println();
 
             aes.setSecretKeySpec("1234567891234567","AES");
-            String encryptString1 = aes.aesEncrypt(data,"AES");
+            String encryptString1 = aes.aesEncrypt(data,"AES/CBC/PKCS5PADDING");
             System.out.println(encryptString1);
-            System.out.println(aes.aesDecrypt(encryptString1,"AES"));
+            System.out.println(aes.aesDecrypt(encryptString1,"AES/CBC/PKCS5PADDING"));
         } catch (Exception e) {
             e.printStackTrace();
         }

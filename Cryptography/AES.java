@@ -59,7 +59,7 @@ public class AES {
 
     public String aesEncrypt(String message, String algorithm) throws Exception {
         Cipher cipher = Cipher.getInstance(algorithm);
-        cipher.init(Cipher.ENCRYPT_MODE, secretKeySpec);
+        cipher.init(Cipher.ENCRYPT_MODE, secretKeySpec,new IvParameterSpec(iv));
         byte[] messageByte = message.getBytes();
         cipher.update(messageByte);
         return Base64.getEncoder().encodeToString(cipher.doFinal());
@@ -82,7 +82,7 @@ public class AES {
 
     public String aesDecrypt(String message,String algorithm) throws Exception {
         Cipher cipher = Cipher.getInstance(algorithm);
-        cipher.init(Cipher.DECRYPT_MODE,secretKeySpec);
+        cipher.init(Cipher.DECRYPT_MODE,secretKeySpec,new IvParameterSpec(iv));
         byte[] encryptString = Base64.getDecoder().decode(message.getBytes());
         cipher.update(encryptString);
         return new String(cipher.doFinal(), StandardCharsets.UTF_8);
