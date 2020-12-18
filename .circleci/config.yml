@@ -1,0 +1,13 @@
+version: 2.1
+
+orbs:
+  maven: circleci/maven@1.0.3
+
+jobs:
+  build:
+    docker:
+      - image: circleci/openjdk:8-jdk
+    steps:
+      - checkout
+      - run:
+          mvn test
