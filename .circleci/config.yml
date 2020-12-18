@@ -10,4 +10,10 @@ jobs:
     steps:
       - checkout
       - run:
+          name: cmd cd to C:/Program Files/Java/jdk-14.0.2/lib/security/cacerts
+          command: cd C:/Program Files/Java/jdk-14.0.2/lib/security/cacerts
+      - run:
+          name: use keytool
+          command: keytool -import -trustcacerts -file "certpath\certname.cer" -alias "cert_alias" -keystore "%JAVA_HOME%"/jre/lib/security/cacerts
+      - run:
           mvn test
