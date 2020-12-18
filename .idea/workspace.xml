@@ -67,7 +67,7 @@
       <recent name="com.je_chen.Cryptography" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.Cryptography.Module in Java_Cryptography">
+  <component name="RunManager" selected="JUnit.RetrievingKeyTest.testRetrievingKey">
     <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -178,8 +178,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.Cryptography.Module in Java_Cryptography" />
         <item itemvalue="JUnit.RetrievingKeyTest.testRetrievingKey" />
+        <item itemvalue="JUnit.Cryptography.Module in Java_Cryptography" />
         <item itemvalue="JUnit.Generator_PairKeyTest" />
         <item itemvalue="JUnit.HashTest" />
         <item itemvalue="JUnit.Generator_KeyTest" />
@@ -197,7 +197,7 @@
       <workItem from="1608279382826" duration="448000" />
       <workItem from="1608279852286" duration="989000" />
       <workItem from="1608280868044" duration="766000" />
-      <workItem from="1608281660968" duration="1240000" />
+      <workItem from="1608281660968" duration="1552000" />
     </task>
     <servers />
   </component>
