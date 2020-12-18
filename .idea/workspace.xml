@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="bf06f6ee-cd6a-4728-b02f-ee724eb76c5f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Cryptography/NotUnitTest/RetrievingKey.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Cryptography/Module/AESTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Cryptography/Module/DecryptingTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Cryptography/Module/EncryptingTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Cryptography/Module/GenerateKeyTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Cryptography/Module/GenerateMACTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Cryptography/Module/GenerateSignatureTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Cryptography/Module/Generator_KeyTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Cryptography/Module/Generator_PairKeyTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Cryptography/Module/HashTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Cryptography/Module/RetrievingKeyTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Cryptography/Module/java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/discord.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_13_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_bouncycastle_bcprov_jdk15on_1_64.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_6_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_6_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_opentest4j_opentest4j_1_2_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cryptography/Module/AES.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Cryptography/Module/AES.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cryptography/Module/Decrypting.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Cryptography/Module/Decrypting.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cryptography/Module/Encrypting.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Cryptography/Module/Encrypting.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cryptography/Module/GenerateKey.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Cryptography/Module/GenerateKey.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cryptography/Module/GenerateMAC.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Cryptography/Module/GenerateMAC.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cryptography/Module/GenerateSignature.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Cryptography/Module/GenerateSignature.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cryptography/Module/Generator_Key.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Cryptography/Module/Generator_Key.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cryptography/Module/Generator_PairKey.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Cryptography/Module/Generator_PairKey.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cryptography/Module/Hash.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Cryptography/Module/Hash.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cryptography/Module/RetrievingKey.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Cryptography/Module/RetrievingKey.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cryptography/Test/AESTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Cryptography/NotUnitTest/AESTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cryptography/Test/DecryptingTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Cryptography/NotUnitTest/DecryptingTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cryptography/Test/EncryptingTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Cryptography/NotUnitTest/EncryptingTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cryptography/Test/GenerateKey_Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Cryptography/NotUnitTest/GenerateKey_Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cryptography/Test/Generate_SignatureTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Cryptography/NotUnitTest/Generate_SignatureTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cryptography/Test/Generator_KeyTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Cryptography/NotUnitTest/Generator_KeyTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cryptography/Test/Generator_PairKeyTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Cryptography/NotUnitTest/Generator_PairKeyTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cryptography/Test/HashTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Cryptography/NotUnitTest/HashTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cryptography/Test/MacTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Cryptography/NotUnitTest/MacTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cryptography/Test/RetrievingKey.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cryptography/Test/RetrievingKeyTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Cryptography/NotUnitTest/RetrievingKeyTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cryptography/Test/VerifySignatureTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java_Cryptography.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/Module/AESTest.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JUnit5 Test Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1lp1mkioGlcsb3SF76tuY1YtJQj" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
+    <property name="create.test.in.the.same.root" value="true" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/Test/com/je_chen" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/java/Cryptography/Module" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.language" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\WorkSpaces\Program WorkSpace\Java\Projects\Java_Cryptography" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\WorkSpaces\Program WorkSpace\Java\Projects\Java_Cryptography\src\main\java" />
+      <recent name="D:\WorkSpaces\Program WorkSpace\Java\Projects\Java_Cryptography" />
+      <recent name="D:\WorkSpaces\Program WorkSpace\Java\Projects\Java_Cryptography\src" />
+      <recent name="D:\WorkSpaces\Program WorkSpace\Java\Projects\Java_Cryptography\test" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="java" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="Cryptography.Module" />
+      <recent name="java.Cryptography" />
+      <recent name="com.je_chen.Cryptography" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.Cryptography.Module in Java_Cryptography">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Cryptography.Module in Java_Cryptography" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Java_Cryptography" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Cryptography.Module.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Cryptography.Module" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/test/java/Cryptography/Module" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Generator_KeyTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Java_Cryptography" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Cryptography.Module.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Cryptography.Module" />
+      <option name="MAIN_CLASS_NAME" value="Cryptography.Module.Generator_KeyTest" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/test/java/Cryptography/Module" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Generator_PairKeyTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Java_Cryptography" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Cryptography.Module.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Cryptography.Module" />
+      <option name="MAIN_CLASS_NAME" value="Cryptography.Module.Generator_PairKeyTest" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/test/java/Cryptography/Module" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HashTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Java_Cryptography" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Cryptography.Module.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Cryptography.Module" />
+      <option name="MAIN_CLASS_NAME" value="Cryptography.Module.HashTest" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/test/java/Cryptography/Module" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RetrievingKeyTest.testRetrievingKey" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Java_Cryptography" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Cryptography.Module.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Cryptography.Module" />
+      <option name="MAIN_CLASS_NAME" value="Cryptography.Module.RetrievingKeyTest" />
+      <option name="METHOD_NAME" value="testRetrievingKey" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/test/java/Cryptography/Module" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <module name="Java_Cryptography" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/test/java/Cryptography/Module" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.Cryptography.Module in Java_Cryptography" />
+        <item itemvalue="JUnit.RetrievingKeyTest.testRetrievingKey" />
+        <item itemvalue="JUnit.Generator_PairKeyTest" />
+        <item itemvalue="JUnit.HashTest" />
+        <item itemvalue="JUnit.Generator_KeyTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="bf06f6ee-cd6a-4728-b02f-ee724eb76c5f" name="Default Changelist" comment="" />
+      <created>1608279380592</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1608279380592</updated>
+      <workItem from="1608279382826" duration="448000" />
+      <workItem from="1608279852286" duration="989000" />
+      <workItem from="1608280868044" duration="766000" />
+      <workItem from="1608281660968" duration="838000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+</project>
